@@ -20,6 +20,8 @@
 
 .env
 
+package-lock.json
+
 ################################################
 # Local Configuration
 #
