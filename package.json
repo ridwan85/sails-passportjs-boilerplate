@@ -1,5 +1,5 @@
 {
-  "name": "felda-api",
+  "name": "sails-passport-mysql",
   "private": true,
   "version": "0.0.0",
   "description": "a Sails application",
