@@ -10,5 +10,5 @@ DB_PASS=yourpassword
 MIGRATE=alter eg: alter,safe  
 PORT=yourport eg:- 1337  
 ```
-Then run npm install  
-To run the server run npm start
+Then run ```npm install```  
+To run the server run ```npm start```
