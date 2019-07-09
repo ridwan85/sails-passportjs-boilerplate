@@ -21,4 +21,4 @@ To continuos restart the server after code changes use ```nodemon```
 ```npm i -g nodemon```  
 Then just run ```nodemon app.js```  
 
-***Remember that database mode is important, always use safe for production environment
+***Remember that database mode is important, always use ```safe``` for production environment
