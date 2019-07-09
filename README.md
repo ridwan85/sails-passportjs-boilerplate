@@ -1,4 +1,5 @@
 a readymade sails@0.12 app with users auth and mysql ready  
+and JWT token applied in policies  
 
 just create a new .env file and specify your environment variable as follow :
 
