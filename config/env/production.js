@@ -11,7 +11,7 @@
  */
 
 module.exports = {
-
+  secret: 'mysecret', //This value will be globally accessible using sails.config.secret once the server is started
   /***************************************************************************
    * Set the default database connection for models in the production        *
    * environment (see config/connections.js and config/models.js )           *

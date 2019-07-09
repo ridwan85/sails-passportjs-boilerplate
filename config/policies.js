@@ -27,7 +27,13 @@ module.exports.policies = {
 
     // Use Passport's built-in sessions
     passport.session()
-  ]
+  ],
+  
+  '*': ['isAuthorized'], // Everything resctricted here
+  'PassportController': {
+    'register': true, // We dont need authorization here, allowing public access
+    'login': true // We dont need authorization here, allowing public access
+  },
 
   /***************************************************************************
   *                                                                          *

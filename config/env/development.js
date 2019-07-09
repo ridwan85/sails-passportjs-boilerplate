@@ -21,6 +21,8 @@ module.exports = {
   models: {
     connection: 'mysqlserver'
   },
+  // see https://www.vivekrk.com/getting-started-with-sailsjs-part-3-sails-policies-and-jwt/ for more details
+  secret: 'mysecret',//This value will be globally accessible using sails.config.secret once the server is started
 
   port :process.env.PORT
 
