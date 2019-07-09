@@ -14,7 +14,7 @@ PORT=yourport #eg:- 1337
 Remember to run ```npm i -g sails@0.12```  
 Then run ```npm install```  
 To run the server run ```npm start```  
-OR
+OR  
 To continuos restart the server after code changes use ```nodemon```  
 ```npm i -g nodemon```  
 Then just run ```nodemon app.js```  
